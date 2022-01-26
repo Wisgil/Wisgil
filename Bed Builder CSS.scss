@@ -1,0 +1,121 @@
+
+
+    /* Style the tab */
+    .tab {
+    width:100%;
+    
+    overflow:hidden;
+      display:inline-table;
+    }
+    
+    .tablinks {
+        display:inline-table;
+    
+    }
+    
+    /* Style the buttons inside the tab */
+    .tab button {
+      background-color: inherit;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      transition: 0.3s;
+      font-size: 17px;
+      height:300px;
+      font-weight:bold;
+    }
+    
+    /* Change background color of buttons on hover */
+    .tab button:hover {
+      background-color: #ddd;
+    }
+    
+    /* Create an active/current tablink class */
+    .tab button.active {
+      border-bottom: 5px solid #cdad16;
+    }
+    
+    
+    /* Style the tab content */
+    .tabcontent {
+      display: none;
+      padding: 6px 12px;
+      border: 1px solid #ccc;
+      border-top: none;
+      -webkit-animation: fadeEffect 1s;
+      animation: fadeEffect 1s;
+    
+    }
+    
+    
+    
+    
+    
+    .tab2 {
+    max-width:100%;
+    overflow:hidden;
+      display:inline-table;
+    }
+    
+    .tablinks2 {
+        display:inline-table;
+    
+    }
+    
+    /* Style the buttons inside the tab */
+    .tab2 button {
+      background-color: inherit;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      transition: 0.3s;
+      font-size: 17px;
+      height:300px;
+      font-weight:bold;
+    }
+    
+    /* Change background color of buttons on hover */
+    .tab2 button:hover {
+      background-color: #ddd;
+    }
+    
+    /* Create an active/current tablink class */
+    .tab2 button.active {
+      border-bottom: 5px solid #cdad16;
+    }
+    
+    /* Style the tab content */
+    .tabcontent2 {
+      display: none;
+      padding: 6px 12px;
+      border: 1px solid #ccc;
+      border-top: none;
+      -webkit-animation: fadeEffect 1s;
+      animation: fadeEffect 1s;
+    
+    }
+    
+    
+    
+    .paraclass{
+        display:inline-table;
+       
+    }
+    
+    
+    .linkclass:hover {
+        background-color: #cdad16;  
+    }
+    
+    /* Fade in tabs */
+    @-webkit-keyframes fadeEffect {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+    
+    @keyframes fadeEffect {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
